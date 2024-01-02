@@ -11,6 +11,11 @@
             line-height: 26px;
             white-space: pre-line;
         }
+        @media (max-width: 767.98px) {
+            .txt {
+                margin-bottom: 17px;
+            }
+        }
     }
 
     .activity-2 {
@@ -85,6 +90,55 @@
                         }
                         .text {
                             font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .activity-2-title {
+                padding: 17px 0 50px;
+            }
+            .list {
+                .item {
+                    grid-template-columns: 1fr;
+                    gap: unset;
+                    margin-bottom: 64px;
+    
+                    .left {
+                        .item-title {
+                            margin-bottom: 20px;
+                            .title {
+                                font-size: 17px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                margin-bottom: 22px;
+                            }
+                            .desc {
+                                line-height: 26px;
+                            }
+                        }
+                        .table {
+                            border-top: 2px solid var(--c-blue-2);
+                            tr {
+                                td {
+                                    display: grid;
+                                    grid-template-columns: 1fr;
+                                    align-items: center;
+                                    &:first-child {
+                                        width: 100%;
+                                    }
+                                    &:last-child {
+                                        padding-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        .media {
+                            margin: 0 auto;
                         }
                     }
                 }

@@ -96,6 +96,12 @@ p {
     text-decoration: none;
 }
 
+.c_link {
+    text-align: right;
+    color: var(--c-main);
+    text-decoration: none;
+}
+
 @import "./header.scss";
 @import "./footer.scss";
 @import "./top_page.scss";

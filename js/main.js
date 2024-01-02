@@ -82,10 +82,5 @@ $(document).ready(function() {
         $(".language-list").slideToggle();
     })
 
-    var table = $('#example').DataTable();
-    $('#search-inp').on('keyup',function(){
-        table.search($(this).val()).draw() ;
-    });
-
     
 });

@@ -19,6 +19,18 @@
 
             }
         }
+        @media (max-width: 767.98px) {
+            .item {
+                .cate {
+                    margin-left: 9px;
+                    margin-right: 0;
+                }
+                .txt {
+                    padding-top: 8px;
+                    display: block;
+                }
+            }
+        }
     }
     .table {
         border-top: 2px solid var(--c-blue-2);

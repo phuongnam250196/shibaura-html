@@ -53,14 +53,17 @@
       .left {
         text-align: center;
         margin-bottom: 30px;
-        .img {
-          width: 60%;
-        }
+        // .img {
+        //   width: 60%;
+        // }
       }
       .right {
         .nav {
           justify-content: space-evenly;
           gap: 20px;
+        }
+        .info {
+          padding-right: 45px;
         }
         .copy-right {
           text-align: center;
